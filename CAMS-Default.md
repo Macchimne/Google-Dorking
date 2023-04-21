@@ -6,40 +6,63 @@ if you need to consult username, password, ip and other data that are "Default" 
 
  # MODELS:
  
+ ```
 Camera Manufacturer 	Username 	Password 	Default IP
 3xLogic 	admin 	12345 	192.0.0.64
+ ```
  
+ ```
 ACTi 	Admin 	123456 	192.168.0.100
 ACTi 	admin 	123456 	192.168.0.100
- 
+```
+
 Arecont 	admin 	no set password 	no default/DHCP
+ ```
  
 Avigilon 	admin 	admin 	no default/DHCP
- 
+ ```
+ ```
 Axis 	root 	pass 	192.168.0.90
 Axis 	root 	no set password 	192.168.0.90
+ ```
+ ```
  
 Basler 	admin 	admin 	192.168.100.x
- 
+ ```
+ ```
 Bosch 	service 	service 	192.168.0.1
 Bosch 	Dinion 	no set password 	192.168.0.1
+ ```
  
+ ```
 Brickcom 	admin 	admin 	192.168.1.1
- 
+ ```
+ ```
 Canon 	root 	Model# of camera 	192.168.100.1
+ ```
  
+ ```
 CBC Ganz 	admin 	admin 	192.168.100.x
+ ```
  
+ ```
 Cisco 	no default 	no set password 	192.168.0.100
+ ```
  
+ ```
 CNB 	root 	admin 	192.168.123.100
+ ```
  
+ ```
 GeoVision 	admin 	admin 	192.168.0.10
+ ```
  
+ ```
 Grandstream 	admin 	admin 	192.168.1.168
+ ```
  
 GVI 	Admin 	1234 	192.168.0.250
- 
+ ```
 HIKVision 	admin 	12345 	192.0.0.64
  
 Honeywell 	administrator 	1234 	no default/DHCP
