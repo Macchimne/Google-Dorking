@@ -57,7 +57,6 @@ intitle:start inurl:cgistart
 
 # COMBINATION:
 
-
 camera linksys inurl:main.cgi
 Display Cameras intitle:"Express6 Live Image"
 intitle:"active webcam page"
@@ -75,7 +74,7 @@ tilt intitle:"Live View / - AXIS" | inurl:view/view.shtml
 intitle:"WJ-NT104 Main Page"
 
 
-## Camera Models:::::::
+## Camera Models
 
 # Axis Cameras:
 
@@ -113,7 +112,6 @@ N/A
 
 # Sony Cameras
 
-
 intitle:"sony network camera snc-ml?
 intitle:"sony network camera snc-pl?
 intitle:snc-cs3 inurl:home/
@@ -123,7 +121,6 @@ intitle:snc-rz30 inurl:home/
  
  # Toshiba Cameras
 
-
 "TOSHIBA Network Camera - User Login"
 /home/homeJ.html
  
@@ -131,8 +128,7 @@ intitle:snc-rz30 inurl:home/
 
 "my webcamXP server!"
 
-# 
-Links (images behind the URL):
+# Links (images behind the URL):
  
 http://200.76.65.165/view/index.shtml Computershop Germany
 http://eyet-tech.homeip.net/view/index.shtml?videos=one
