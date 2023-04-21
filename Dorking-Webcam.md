@@ -162,6 +162,3 @@ http://www.opentopia.com/showcam.php?camid=3440 flower shop, Japan
 http://www.opentopia.com/showcam.php?camid=3273 computer control room
  
  
- 
- 
-
