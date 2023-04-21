@@ -1,11 +1,11 @@
  
 # FTP PASSWORD GOOGLE DORKS
  
-1.) ws_ftp.ini configuration file search:
+ws_ftp.ini configuration file search:
  
 intitle:index.of ws_ftp.ini
  
-2.) ws_ftp.ini configuration file with “Parent Directory” search:
+ws_ftp.ini configuration file with “Parent Directory” search:
  
 filetype:ini ws_ftp pwd
  
@@ -24,33 +24,33 @@ filetype:ini ws_ftp pwd
 
  # XSS GOOGLE DORKS
  
-1.) cart32 executable file.
+cart32 executable file.
  
 allinurl:/scripts/cart32.exe
  
-2.) Cute news php file.
+Cute news php file.
  
 allinurl:/CuteNews/show_archives.php
  
-3.) phpinfo.php file.
+phpinfo.php file.
  
 allinurl:/phpinfo.php
  
 # PHP GOOGLE DORKS
  
-1.) config.php file search:
+config.php file search:
  
 intitle:index.of config.php
  
-2.) PHP file contents search:
+PHP file contents search:
  
 intitle:”Index of” phpinfo.php
  
-3.) download.php directory transversal vulneralbilities:
+download.php directory transversal vulneralbilities:
  
 inurl:download.php?=filename
  
-4.) upload.php search:
+upload.php search:
  
 intitle:index.of upload.php
  
@@ -58,7 +58,7 @@ inurl:upload.php
  
 # SQL PASSWORD DUMP DORKS
  
-1.) SQL dumps saved to database search. (Some of the more common passwords for you):
+SQL dumps saved to database search. (Some of the more common passwords for you):
  
 a.) ”123456″ = hashed password
 ext:sql intext:@gmail.com intext:e10adc3949ba59abbe56e057f20f883e
@@ -95,123 +95,123 @@ allinurl:/privmsg.php
  
 # WORDPRESS GOOGLE DORKS
  
-1.) Asset Manager Plugin Exploit – Unprotected Remote File Upload Vuleralbility.
+Asset Manager Plugin Exploit – Unprotected Remote File Upload Vuleralbility.
  
 inurl:Editor/assetmanager/assetmanager.asp
  
-2.) Timthumb Plugin Exploit – Attacker can attach a shell to a image file and upload the shell. (It has been patched, but there are still a lot of webmasters who have NOT updated!)
+Timthumb Plugin Exploit – Attacker can attach a shell to a image file and upload the shell. (It has been patched, but there are still a lot of webmasters who have NOT updated!)
  
 inurl:index.of thumb.php
  
 inurl:thumb.php
  
-3.) Search for plugins directory:
+Search for plugins directory:
  
 inurl:wp-content/plugins/
  
-4.) Search for themes directory:
+Search for themes directory:
  
 inurl:wp-content/themes/
  
 # PASSWORD FILE GOOGLE DORKS
  
-1.) Search for Microsoft Excel data file:
+Search for Microsoft Excel data file:
  
 ”Login: *” “password =*” filetype: xls
  
-2.) Search for auth_user_file:
+Search for auth_user_file:
  
 allinurl: auth_user_file.txt
  
-3.) Search for username/password saved in Microsoft Excel files:
+Search for username/password saved in Microsoft Excel files:
  
 filetype: xls inurl: “password.xls”
  
-4.) Search for login pages:
+Search for login pages:
  
 intitle: login password
  
-5.) Search for “master password” page:
+Search for “master password” page:
  
 intitle: “Index of” master.passwd
  
-6.) Search for backup directory:
+Search for backup directory:
  
 index of /backup
  
-7.) Search for password backup file index:
+Search for password backup file index:
  
 intitle:index.of passwd.bak
  
-8.) Search for password databases:
+Search for password databases:
  
 intitle:index.of pwd.db
  
 intitle:”index of” pwd.db
  
-9.) Search for /etc/passwd/ index:
- 
+Search for /etc/passwd/ index: 
+
 intitle:”index of .. etc” passwd
  
-10.) Search for plaintext password file:
+Search for plaintext password file:
  
 index.of passlist.txt
  
 inurl:passlist.txt
  
-11.) Search for hidden documents/password files:
+Search for hidden documents/password files:
  
 index.of.secret
  
 index.of.private
  
-12.) Search for PhpMyAdmin files:
+Search for PhpMyAdmin files:
  
 ”# PhpMyAdmin MySQL-Dump” filetype: txt
  
-13.) Hidden Superuser (root) data files:
+Hidden Superuser (root) data files:
  
 inurl:ipsec.secrets-history-bugs
  
 inurl:ipsec.secrets “holds shared secrets”
  
-14.) Find the information files:
+Find the information files:
  
 inurl:ipsec.conf-intitle:manpage
  
-15.) Search for a stored password in a database:
+Search for a stored password in a database:
  
 filetype:ldb admin
  
-16.) Search for admin.php file:
+Search for admin.php file:
  
 inurl:search/admin.php
  
-17.) Search for password log files:
+Search for password log files:
  
 inurl:password.log filetype:log
  
-18.) Search for Hkey_Current_User in registry files:
+Search for Hkey_Current_User in registry files:
  
 filetype: reg HKEY_CURRENT_USER username
  
-19.) Search for username/password file backups:
+Search for username/password file backups:
  
 ”Http://username: password @ www …” filetype: bak inurl: “htaccess | passwd | shadow | ht users”
  
-20.) Search for username/password files:
+Search for username/password files:
  
 filetype:mdb inurl:”account|users|admin|administrators|passwd|password” mdb files
  
-21.) Search for Microsoft Frontpage passwords:
+Search for Microsoft Frontpage passwords:
  
 ext:pwd inurl:(service|authors|administrators|users) “# -FrontPage-”
  
-22.) Search for SQL database Code and passwords:
+Search for SQL database Code and passwords:
  
 filetype: sql ( “passwd values ****” |” password values ****” | “pass values ****”)
  
-23.) Search for e-mail account files:
+Search for e-mail account files:
  
 intitle: “Index Of”-inurl: maillog
  
