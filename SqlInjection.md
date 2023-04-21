@@ -1,4 +1,4 @@
-# SQLINJECTION LIST:
+# SQL-INJECTION LIST:
 
 ```
 view_items.php?id=
