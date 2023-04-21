@@ -10,6 +10,14 @@ inurl:ViewerFrame?Mode=
  
 inurl:ViewerFrame?Mode=Refresh
 
+inurl:top.htm inurl:currenttime
+
+intitle:”webcamXP 5”
+
+inurl:”lvappl.htm”
+
+inurl:”ViewerFrame?Mode=”
+
 # WEBCAM GOOGLE DORKS-2
 
 intitle:liveapplet Mostly security cameras, car parks, colleges, clubs, bars etc.
