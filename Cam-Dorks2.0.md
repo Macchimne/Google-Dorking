@@ -39,7 +39,7 @@ intitle:snc-z20 inurl:home/
 Mostly security cameras, shops, car parks
 intitle:"WJ-NT104 Main"
 
-ffff
+#Dorks2.4
 
 Mostly security cameras, car parks, colleges etc.
 inurl:LvAppl intitle:liveapplet 
